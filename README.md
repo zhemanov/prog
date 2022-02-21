@@ -11,3 +11,7 @@
   docker pull zheman/nginx-test.
 Скрипт script1.sh дабавить в атозагруки системы.
 После перезапуска системы или запуска скрипта поднимется сервер на потру http://localhost/80.
+
+
+ file testservice.service put in directory /etc/systemd/system/
+ using sudo systemctl enable testservice for add to startup command
