@@ -1,0 +1,9 @@
+[Unit]
+Discription=auto start script after power on
+
+[Service]
+Type=oneshot
+ExecStart=/home/Documents/script.sh
+
+[install]
+WentedBy=multi-user.target
