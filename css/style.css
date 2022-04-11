@@ -1,11 +1,12 @@
 h1 {
-    color: brown;
+    color: rgb(83, 21, 228);
+    height: 30;
 }
 
 h2 {
-    color: aquamarine;
+    color: rgb(253, 255, 127);
 }
 
 p {
-    color: hwb(101 0% 0%);
+    color: rgb(255, 17, 0);
 }
